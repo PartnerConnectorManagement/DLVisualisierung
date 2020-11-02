@@ -235,26 +235,37 @@ window.onload = function () {
 };
 
 function elementInnerHTML(element, input) {
-
-    if (input != "undefined" || input !== "") {
-        document.getElementById(element).innerHTML = input
+    if (input == null || input == "") {
+      document.getElementById(element).outerHTML = '';
     } else {
-        document.getElementById(element).outerHTML = '';
+      document.getElementById(element).innerHTML = input
+    }
+}
+
+function elementInnerHTMLTable(element, input) {
+    if (input == null || input == "") {
+      document.getElementById(element).outerHTML = '<td></td>';
+    } else {
+      document.getElementById(element).innerHTML = input
     }
 }
 
 function fillsideBox(input, type) {
     if (type === 'SHOP') {
-        elementInnerHTML('verysmall', input.verysmall);
-        elementInnerHTML('small', input.small);
-        elementInnerHTML('medium', input.medium);
-        elementInnerHTML('big', input.big);
-        elementInnerHTML('verybig', input.verybig);
+        elementInnerHTMLTable('verysmall', input.verysmall);
+        elementInnerHTMLTable('small', input.small);
+        elementInnerHTMLTable('medium', input.medium);
+        elementInnerHTMLTable('big', input.big);
+        elementInnerHTMLTable('verybig', input.verybig);
 
     } else if (type === 'DL') {
-        elementInnerHTML('Shopsystem', input.Shopsystem);
-        elementInnerHTML('PimSystem', input.PimSystem);
-        elementInnerHTML('WaWi', input.WaWiSystem);
+        elementInnerHTMLTable('Shopsystem', input.Shopsystem);
+        elementInnerHTMLTable('PimSystem', input.PimSystem);
+        elementInnerHTMLTable('WaWi', input.WaWiSystem);
+    } else if (type === 'WaWi') {
+        elementInnerHTMLTable('Shopsystem', input.Shopsystem);
+        elementInnerHTMLTable('PimSystem', input.PimSystem);
+        elementInnerHTMLTable('WaWi', input.WaWiSystem);
     }
 
     elementInnerHTML('text', input.text);

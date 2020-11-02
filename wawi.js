@@ -49,6 +49,9 @@ var wawi = {
     JTL: {
       title: 'JTL',
       url: '',
+      Shopsystem: 'X',
+      PimSystem: 'X',
+      WaWiSystem: 'X',
       shopSysteme: [
         'Shopware',
         'Shopify',

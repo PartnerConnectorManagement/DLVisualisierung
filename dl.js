@@ -4,7 +4,7 @@ var dlcontent = '<h2 class="typing" id="heading">Dienstleister</h2><p id="text" 
 var dl = {
     Brickfox: {
         title: 'Brickfox',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        text: '',
         Shopsystem: '',
         PimSystem: 'X',
         WaWiSystem: '',
