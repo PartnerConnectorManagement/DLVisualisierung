@@ -301,11 +301,23 @@ var dl = {
         bullet3: '',
         Shopsystem: '',
         PimSystem: '',
-        WaWiSystem: '',
+        WaWiSystem: 'X',
         big: 'X',
         verybig: '',
         angebunden: false,
         shopSysteme: [
+          'Azoo',
+          'Epages',
+          'Gambio',
+          'Jimdo',
+          'Lightspeed',
+          'Magento',
+          'Presta',
+          'Serverspot',
+          'Shopify',
+          'Shopware',
+          'VersaCommerce',
+          'Woocommerce'
         ],
         WaWi: [
             'JTL'

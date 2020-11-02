@@ -58,7 +58,7 @@ function calculateSize() {
         shopsRadius = size / 23;
     }
 
-    
+
 
 
     ottoLogoSize = size / 5;
@@ -319,6 +319,11 @@ function press(input, type) {
     if (type === 'DL') {
 
         for (var i = 0; i < dl[input].shopSysteme.length; i++) {
+            if (shops[dl[input].shopSysteme[i]] == null) {
+              alert("Can't find the Shopsystem " + dl[input].shopSysteme[i]);
+              break;
+
+            }
             document.getElementById(dl[input].shopSysteme[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
 
             ctx.beginPath();
@@ -331,6 +336,11 @@ function press(input, type) {
         }
         if (buttonStateWaWi !== 0) {
             for (var i = 0; i < dl[input].WaWi.length; i++) {
+              if (wawi[dl[input].WaWi[i]] == null) {
+                alert("Can't find the Shopsystem " + dl[input].shopSysteme[i]);
+                break;
+
+              }
                 document.getElementById(dl[input].WaWi[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
 
                 ctx.beginPath();
