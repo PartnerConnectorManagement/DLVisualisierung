@@ -239,31 +239,6 @@ var dl = {
 
         ]
     },
-    JTL: {
-        title: 'JTL',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        bullet1: 'Lorem ipsum dolor',
-        bullet2: 'Lorem ipsum dolor',
-        bullet3: 'Lorem ipsum dolor',
-        Shopsystem: 'X',
-        PimSystem: 'X',
-        WaWiSystem: 'X',
-        big: 'X',
-        verybig: '',
-        angebunden: false,
-        shopSysteme: [
-            'Shopware',
-            'Shopify',
-            'Presta',
-            'Modified',
-            'Gambio',
-            'Woocommerce',
-
-        ],
-        WaWi: [
-
-        ]
-    },
     novomind: {
         title: 'novomind',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',

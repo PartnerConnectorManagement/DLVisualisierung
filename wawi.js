@@ -45,5 +45,19 @@ var wawi = {
     Ebootis: {
       titel: 'eBootis',
       url: 'https://www.ebootis.de/'
+    },
+    JTL: {
+      title: 'JTL',
+      url: '',
+      shopSysteme: [
+        'Shopware',
+        'Shopify',
+        'Presta',
+        'Modified',
+        'Gambio',
+        'Woocommerce',
+        ],
+        angebunden: false,
+        angebundenZukunft: true
     }
 }
