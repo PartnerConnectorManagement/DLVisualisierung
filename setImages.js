@@ -12,6 +12,15 @@ function placeImages(inputArray, circleRadius, imageRadius) {
     let angle = 360/Object.keys(inputArray).length;
     var arrayNames = Object.keys(inputArray);
 
+    let numberOfImages = arrayNames.length;
+    let circumference = 2 * 3.1415 * circleRadius;
+
+    let maximumImageSize = circumference/(numberOfImages+1)/2;
+    if (imageRadius > maximumImageSize) {
+        imageRadius = maximumImageSize;
+    }
+    
+
     for (var i = 0; i < arrayNames.length; i++) {
         let x = centerX + circleRadius * Math.sin(angle*i* ( Math.PI / 180 ));
         let y = centerY + circleRadius * Math.cos(angle*i* ( Math.PI / 180 ));
@@ -35,8 +44,6 @@ function placeImages(inputArray, circleRadius, imageRadius) {
             wawi[arrayNames[i]].y = y;
         }
     }
-
-
 }
 
 

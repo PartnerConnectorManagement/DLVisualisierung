@@ -58,6 +58,8 @@ function calculateSize() {
         shopsRadius = size / 23;
     }
 
+    
+
 
     ottoLogoSize = size / 5;
 
