@@ -364,6 +364,20 @@ function press(input, type) {
                 }
             }
         }
+
+        if (wawi[input].shopSysteme != undefined) {
+            for (var i = 0; i < wawi[input].shopSysteme.length; i++) {
+
+                document.getElementById(wawi[input].shopSysteme[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
+
+                ctx.beginPath();
+                ctx.moveTo((leftInt-canvasLeft+heightInt/2)+moveX, (topInt-canvasTop+heightInt/2)+moveY);
+                ctx.lineTo(shops[wawi[input].shopSysteme[i]].x+moveX, shops[wawi[input].shopSysteme[i]].y+moveY);
+                ctx.strokeStyle = '#C8C8C8';
+                ctx.stroke();
+            }
+        }
+
     }
 
 
