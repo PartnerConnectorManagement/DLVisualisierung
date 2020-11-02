@@ -292,5 +292,23 @@ var dl = {
         WaWi: [
             'JTL'
         ]
+    },
+    Billbee: {
+        title: 'Billbee',
+        text: 'Missing Connections',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        big: 'X',
+        verybig: '',
+        angebunden: false,
+        shopSysteme: [
+        ],
+        WaWi: [
+            'JTL'
+        ]
     }
 }

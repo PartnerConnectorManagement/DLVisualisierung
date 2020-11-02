@@ -15,11 +15,11 @@ function placeImages(inputArray, circleRadius, imageRadius) {
     let numberOfImages = arrayNames.length;
     let circumference = 2 * 3.1415 * circleRadius;
 
-    let maximumImageSize = circumference/(numberOfImages+1)/2;
+    let maximumImageSize = circumference/(numberOfImages*1.15)/2;
     if (imageRadius > maximumImageSize) {
         imageRadius = maximumImageSize;
     }
-    
+
 
     for (var i = 0; i < arrayNames.length; i++) {
         let x = centerX + circleRadius * Math.sin(angle*i* ( Math.PI / 180 ));
