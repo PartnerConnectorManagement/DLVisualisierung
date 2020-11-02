@@ -334,22 +334,34 @@ function press(input, type) {
             ctx.strokeStyle = '#C8C8C8';
             ctx.stroke();
         }
-        if (buttonStateWaWi !== 0) {
-            for (var i = 0; i < dl[input].WaWi.length; i++) {
-              if (wawi[dl[input].WaWi[i]] == null) {
-                alert("Can't find the Shopsystem " + dl[input].shopSysteme[i]);
-                break;
 
-              }
-                document.getElementById(dl[input].WaWi[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
-
-                ctx.beginPath();
-                ctx.moveTo((leftInt-canvasLeft+heightInt/2)+moveX, (topInt-canvasTop+heightInt/2)+moveY);
-                ctx.lineTo(wawi[dl[input].WaWi[i]].x+moveX, wawi[dl[input].WaWi[i]].y+moveY);
-                ctx.strokeStyle = '#C8C8C8';
-                ctx.stroke();
+        for (var i = 0; i < dl[input].WaWi.length; i++) {
+            if (document.getElementById(dl[input].WaWi[i]) == null) {
+              break;
             }
+            document.getElementById(dl[input].WaWi[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
+
+            ctx.beginPath();
+            ctx.moveTo((leftInt-canvasLeft+heightInt/2)+moveX, (topInt-canvasTop+heightInt/2)+moveY);
+            ctx.lineTo(wawi[dl[input].WaWi[i]].x+moveX, wawi[dl[input].WaWi[i]].y+moveY);
+            ctx.strokeStyle = '#C8C8C8';
+            ctx.stroke();
         }
+        console.log(dl[input].DL);
+
+        if (dl[input].DL === null) {
+          for (var i = 0; i < dl[input].DL.length; i++) {
+
+              document.getElementById(dl[input].DL[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
+
+              ctx.beginPath();
+              ctx.moveTo((leftInt-canvasLeft+heightInt/2)+moveX, (topInt-canvasTop+heightInt/2)+moveY);
+              ctx.lineTo(dl[dl[input].DL[i]].x+moveX, dl[dl[input].DL[i]].y+moveY);
+              ctx.strokeStyle = '#C8C8C8';
+              ctx.stroke();
+          }
+        }
+
 
 
     } else if (type === 'SHOP') {

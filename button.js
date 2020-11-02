@@ -25,6 +25,11 @@ function moveButtonWaWi() {
         document.getElementById('moverWaWi').style.left = '0px';
         buttonStateWaWi = 0;
         wawiVisible = false;
+        var allWawi = Object.keys(wawi)
+        for (var i = 0; i < allWawi.length; i++) {
+            delete wawi[allWawi[i]].x;
+            delete wawi[allWawi[i]].y;
+        }
         reDrawEverything();
     } else if (buttonStateWaWi === 0) {
         document.getElementById('moverWaWi').style.left = '130px';

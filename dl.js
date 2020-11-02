@@ -295,7 +295,7 @@ var dl = {
     },
     Billbee: {
         title: 'Billbee',
-        text: 'Missing Connections',
+        text: '',
         bullet1: '',
         bullet2: '',
         bullet3: '',
@@ -321,6 +321,36 @@ var dl = {
         ],
         WaWi: [
             'JTL'
+        ]
+    },
+    ODC: {
+        title: 'ODC',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        big: 'X',
+        verybig: '',
+        angebunden: true,
+        shopSysteme: [
+          'Shopify',
+          'Shopware',
+          'Woocommerce',
+          'Presta',
+
+        ],
+        WaWi: [
+            'JTL',
+            'weclapp',
+            'Dreamrobot'
+        ],
+        DL: [
+            'Plentymarkets',
+            'Billbee',
+            'Tradebyte'
         ]
     }
 }
