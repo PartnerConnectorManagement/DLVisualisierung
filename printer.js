@@ -17,6 +17,7 @@ var canvasTop = 10000;
 var canvasLeft = 20;
 
 var ottoLogoSize = 100;
+var ottoLogoHeight = 100;
 var shadowRadius = 5;
 
 var moveX = 0;
@@ -62,6 +63,7 @@ function calculateSize() {
 
 
     ottoLogoSize = size / 5;
+    ottoLogoHeight = ottoLogoSize/2.21;
 
     canvasTop = parseInt(canvas.style.top.substring(0, canvas.style.top.length - 2));
     canvasLeft = parseInt(canvas.style.left.substring(0, canvas.style.left.length - 2));
@@ -187,9 +189,17 @@ function setImages() {
     */
 
     var ottoLogo = document.getElementById('OTTO');
-    ottoLogo.width = ottoLogoSize;
-    ottoLogo.style.left = centerX-ottoLogoSize/3 + 'px';
-    ottoLogo.style.top = centerY+((ottoLogoSize/2.5)/2) + 'px';
+    ottoLogo.style.width = ottoLogoSize + 'px';
+
+    let canvasleftOld = document.getElementById('canvas').style.left;
+    let canvasTopOld = document.getElementById('canvas').style.top;
+
+
+    let canvasTop = parseInt(canvasTopOld.substring(0, canvasTopOld.length - 2));
+    let canvasLeft = parseInt(canvasleftOld.substring(0, canvasleftOld.length - 2));
+
+    ottoLogo.style.left = ((centerX+canvasLeft)-ottoLogoSize/2) + 'px';
+    ottoLogo.style.top = ((centerY+canvasTop)-ottoLogoHeight/2) + 'px';
 
 
 
