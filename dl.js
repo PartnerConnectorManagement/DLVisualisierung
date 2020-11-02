@@ -299,5 +299,23 @@ var dl = {
         WaWi: [
           'Pixi'
         ]
+    },
+    Unicorn2: {
+        title: 'Unicorn2',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        bullet1: 'Lorem ipsum dolor',
+        bullet2: 'Lorem ipsum dolor',
+        bullet3: 'Lorem ipsum dolor',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        big: 'X',
+        verybig: '',
+        angebunden: true,
+        shopSysteme: [
+        ],
+        WaWi: [
+            'JTL'
+        ]
     }
 }
