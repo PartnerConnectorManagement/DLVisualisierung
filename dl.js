@@ -316,7 +316,7 @@ var dl = {
           'Serverspot',
           'Shopify',
           'Shopware',
-          'VersaCommerce',
+          'Versacommerce',
           'Woocommerce'
         ],
         WaWi: [
