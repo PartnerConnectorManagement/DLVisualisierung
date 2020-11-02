@@ -30,8 +30,7 @@ Here is a list of the minimum version for .woff support
 /* OTTO Sans Regular, Italic, Bold, Bold Italic -- Style linked */
 @font-face {
     font-family: 'OTTO Sans';
-    src: url('OTTOSans-Regular-2v1-ottosubset.woff2') format('woff2'),
-         url('OTTOSans-Regular-2v1-ottosubset.woff') format('woff');
+    src: url('otto-sans.tff') format('ttf');
     font-weight: normal;
     font-style: normal;
     }

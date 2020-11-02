@@ -236,7 +236,7 @@ window.onload = function () {
 
 function elementInnerHTML(element, input) {
 
-    if (input !== undefined || input !== "") {
+    if (input != "undefined" || input !== "") {
         document.getElementById(element).innerHTML = input
     } else {
         document.getElementById(element).outerHTML = '';
@@ -296,6 +296,7 @@ function press(input, type) {
         fillsideBox(dl[input], type);
     } else if (type === 'WaWi') {
         document.getElementById('sideBox').innerHTML = wawicontent;
+        fillsideBox(wawi[input], type);
     } else {
         document.getElementById('heading').innerHTML = input;
     }
