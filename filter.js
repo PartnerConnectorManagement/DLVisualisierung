@@ -128,15 +128,25 @@ let filterVisibleModal = false;
 
 function showFilter() {
     let blackBox = document.getElementById('blackBox');
-    let filterBox = document.getElementById('filterBox')
+    let filterBox = document.getElementById('filterBox');
+    let closeButton = document.getElementById('closeButton');
     if (!filterVisibleModal) {
         blackBox.style.visibility = 'hidden';
+        closeButton.style.visibility = 'hidden';
         filterBox.style.visibility = 'hidden';
         filterBox.style.position = 'absolute';
         filterBox.style.left = '';
-        filterBox.style.marginLeft = ''
+        filterBox.style.marginLeft = '';
+        filterBox.style.border = '1px solid #c4c4c4';
+
     } else {
         blackBox.style.visibility = 'visible';
+        closeButton.style.visibility = 'visible';
+        closeButton.style.left = '50%';
+        closeButton.style.marginLeft = '140px';
+        closeButton.style.top = '40px';
+        filterBox.style.border = 'none';
+
         filterBox.style.visibility = 'visible';
         filterBox.style.position = 'fixed';
         filterBox.style.left = '50%';
