@@ -110,7 +110,7 @@
                 padding-top: 30px;
                 padding-left: 30px;
                 position: absolute;
-                height: 400px;
+                height: 407px;
                 border: 1px solid #c4c4c4;
                 bottom: 18px;
                 top: 80px;
@@ -159,6 +159,10 @@
                 left: 0px;
                 float: inherit;
                 top: -70px;
+            }
+
+            #mover:Hover {
+                cursor: pointer;
             }
 
             #moverWaWi {
@@ -249,8 +253,8 @@
             }
 
             .checkBox {
-                width: 200px;
-
+                width: 250px;
+                margin-bottom: 5px;
             }
 
             .checkBoxBox {
@@ -280,8 +284,23 @@
                 width: 80%;
                 height: 1px;
                 background-color: rgb(144, 144, 144);
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 margin-top: 20px;
+            }
+
+            #buttonOttoStyle {
+                background-color: #d4021d;
+                width: 260px;
+                padding-top: 8px;
+                height: 27px;
+                margin-top: 10px;
+                border: 1px solid #c4c4c4;
+                border-radius: 3px;
+                text-align: center;
+                color: white;
+            }
+            #buttonOttoStyle:Hover {
+                cursor: pointer;
             }
 
         </style>
@@ -364,7 +383,55 @@
             </div>
 
 
+            <div class="filterLine"></div>
+            <h3>Dienstleister Typen</h3>
 
+            <div class="checkBox">
+                <div class="checkBoxBox" onmousedown="fullServiceFilter()"></div>
+                <svg  height="15" width="15" class="checkBoxhacken" id="checkFullService" onmousedown="fullServiceFilter()">
+                    <line x1="2" y1="7" x2="6" y2="11" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                    <line x1="6" y1="11" x2="12" y2="5" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                </svg>
+                <p>Full-Service Provider</p>
+            </div>
+
+            <div class="checkBox">
+                <div class="checkBoxBox" onmousedown="specialServiceFilter()"></div>
+                <svg  height="15" width="15" class="checkBoxhacken" id="checkSpecialService" onmousedown="specialServiceFilter()">
+                    <line x1="2" y1="7" x2="6" y2="11" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                    <line x1="6" y1="11" x2="12" y2="5" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                </svg>
+                <p>Specialized Provider</p>
+            </div>
+
+            <div class="checkBox">
+                <div class="checkBoxBox" onmousedown="agenturFilter()"></div>
+                <svg  height="15" width="15" class="checkBoxhacken" id="checkAgentur" onmousedown="agenturFilter()">
+                    <line x1="2" y1="7" x2="6" y2="11" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                    <line x1="6" y1="11" x2="12" y2="5" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                </svg>
+                <p>Beratung/ Agentur </p>
+            </div>
+
+            <div class="checkBox">
+                <div class="checkBoxBox" onmousedown="contentProviderFilter()"></div>
+                <svg  height="15" width="15" class="checkBoxhacken" id="checkContentProvider" onmousedown="contentProviderFilter()">
+                    <line x1="2" y1="7" x2="6" y2="11" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                    <line x1="6" y1="11" x2="12" y2="5" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                </svg>
+                <p>Content/ Marketingprovider </p>
+            </div>
+
+            <div class="checkBox">
+                <div class="checkBoxBox" onmousedown="keineZuordnungFilter()"></div>
+                <svg  height="15" width="15" class="checkBoxhacken" id="checkKeineZuordnung" onmousedown="keineZuordnungFilter()">
+                    <line x1="2" y1="7" x2="6" y2="11" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                    <line x1="6" y1="11" x2="12" y2="5" style="stroke:rgb(144, 144, 144);stroke-width:1" />
+                </svg>
+                <p>Keine Zuordnung</p>
+            </div>
+
+            <div id="buttonOttoStyle" onmousedown="restFilter()">Filter reset</div>
 
         </div>
 

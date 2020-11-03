@@ -288,6 +288,15 @@ function fillsideBox(input, type) {
     }
 
     elementInnerHTML('text', input.text);
+    if (input.Servicetype === 'FullServiceProvider') {
+        elementInnerHTML('type', 'Full-Service Provider');
+    } else if (input.Servicetype === 'SpecialServiceProvider') {
+        elementInnerHTML('type', 'Specialized Provider');
+    } else if (input.Servicetype === 'AgenturProvider') {
+        elementInnerHTML('type', 'Beratung/ Agentur');
+    } else if (input.Servicetype === 'ContentProvider') {
+        elementInnerHTML('type', 'Content/ Marketingprovider');
+    }
 
     elementInnerHTML('heading', input.title);
     elementInnerHTML('bullet1', input.bullet1);

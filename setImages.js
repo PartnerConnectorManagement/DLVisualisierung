@@ -66,6 +66,7 @@ function setImagesNew() {
 
     if (futureVisible) {
         for (var i = 0; i < allDLNames.length; i++) {
+            //DL Eigenschaften
             if (checkWaWi && dl[allDLNames[i]].WaWiSystem !== 'X') {
                 hideImage(allDLNames[i]);
                 continue;
@@ -75,6 +76,22 @@ function setImagesNew() {
                 continue;
             }
             if (checkPim && dl[allDLNames[i]].PimSystem !== 'X') {
+                hideImage(allDLNames[i]);
+                continue;
+            }
+
+            //DL Typen
+            if (checkFullService && dl[allDLNames[i]].Servicetype === 'FullServiceProvider') {
+
+            } else if (checkSpecialService && dl[allDLNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+            } else if (checkAgentur && dl[allDLNames[i]].Servicetype == 'AgenturProvider') {
+
+            } else if (checkContentProvider && dl[allDLNames[i]].Servicetype == 'ContentProvider') {
+
+            } else if (keineZuordnung && dl[allDLNames[i]].Servicetype == '') {
+
+            } else {
                 hideImage(allDLNames[i]);
                 continue;
             }
@@ -94,6 +111,21 @@ function setImagesNew() {
                   continue;
               }
               if (checkPim && shops[allShopsNames[i]].PimSystem !== 'X') {
+                  hideImage(allShopsNames[i]);
+                  continue;
+              }
+
+              if (checkFullService && shops[allShopsNames[i]].Servicetype === 'FullServiceProvider') {
+
+              } else if (checkSpecialService && shops[allShopsNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+              } else if (checkAgentur && shops[allShopsNames[i]].Servicetype == 'AgenturProvider') {
+
+              } else if (checkContentProvider && shops[allShopsNames[i]].Servicetype == 'ContentProvider') {
+
+              } else if (keineZuordnung && dl[allShopsNames[i]].Servicetype == '') {
+
+              } else {
                   hideImage(allShopsNames[i]);
                   continue;
               }
@@ -118,6 +150,22 @@ function setImagesNew() {
                   hideImage(allWaWisNames[i]);
                   continue;
               }
+
+              if (checkFullService && wawi[allWaWisNames[i]].Servicetype === 'FullServiceProvider') {
+
+              } else if (checkSpecialService && wawi[allWaWisNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+              } else if (checkAgentur && wawi[allWaWisNames[i]].Servicetype == 'AgenturProvider') {
+
+              } else if (checkContentProvider && wawi[allWaWisNames[i]].Servicetype == 'ContentProvider') {
+
+              } else if (keineZuordnung && wawi[allWaWisNames[i]].Servicetype == '') {
+
+              } else {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+
             firstCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
             firstCircle[allWaWisNames[i]].type = 'WaWi';
           } else {
@@ -141,6 +189,20 @@ function setImagesNew() {
                     hideImage(allDLNames[i]);
                     continue;
                 }
+                if (checkFullService && dl[allDLNames[i]].Servicetype === 'FullServiceProvider') {
+
+                } else if (checkSpecialService && dl[allDLNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+                } else if (checkAgentur && dl[allDLNames[i]].Servicetype == 'AgenturProvider') {
+
+                } else if (checkContentProvider && dl[allDLNames[i]].Servicetype == 'ContentProvider') {
+
+                } else if (keineZuordnung && dl[allDLNames[i]].Servicetype == '') {
+
+                } else {
+                    hideImage(allDLNames[i]);
+                    continue;
+                }
                 firstCircle[allDLNames[i]]=(dl[allDLNames[i]]);
                 firstCircle[allDLNames[i]].type = 'DL';
             } else {
@@ -161,6 +223,22 @@ function setImagesNew() {
                     hideImage(allShopsNames[i]);
                     continue;
                 }
+
+                if (checkFullService && shops[allShopsNames[i]].Servicetype === 'FullServiceProvider') {
+
+                } else if (checkSpecialService && shops[allShopsNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+                } else if (checkAgentur && shops[allShopsNames[i]].Servicetype == 'AgenturProvider') {
+
+                } else if (checkContentProvider && shops[allShopsNames[i]].Servicetype == 'ContentProvider') {
+
+                } else if (keineZuordnung && dl[allShopsNames[i]].Servicetype == '') {
+
+                } else {
+                    hideImage(allShopsNames[i]);
+                    continue;
+                }
+
                 firstCircle[allShopsNames[i]]=(shops[allShopsNames[i]]);
                 firstCircle[allShopsNames[i]].type = 'SHOP';
             } else {
@@ -179,6 +257,21 @@ function setImagesNew() {
                   continue;
               }
               if (checkPim && wawi[allWaWisNames[i]].PimSystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+
+              if (checkFullService && wawi[allWaWisNames[i]].Servicetype === 'FullServiceProvider') {
+
+              } else if (checkSpecialService && wawi[allWaWisNames[i]].Servicetype == 'SpecialServiceProvider') {
+
+              } else if (checkAgentur && wawi[allWaWisNames[i]].Servicetype == 'AgenturProvider') {
+
+              } else if (checkContentProvider && wawi[allWaWisNames[i]].Servicetype == 'ContentProvider') {
+
+              } else if (keineZuordnung && wawi[allWaWisNames[i]].Servicetype == '') {
+
+              } else {
                   hideImage(allWaWisNames[i]);
                   continue;
               }

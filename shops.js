@@ -1,4 +1,4 @@
-var shopscontent = '<h2 class="typing" id="heading">Dienstleister</h2><p style="margin-top: 20px" id="text"></p><ul style="margin-top: 30px"><li id="bullet1"></li><li id="bullet2">consectetur adipisicing elit</li><li id="bullet3">sed do eiusmod</li></ul><table id="sideBoxTable"><tr id="tabelHeading"><td>Anforderungen</td><td id="secondCell"></td></tr><tr><td class="caption">Sehr klein</td><td id="verysmall"></td></tr><tr><td class="caption">Klein</td><td id="small"></td></tr><tr><td class="caption">Mittelgroß</td><td id="medium"></td></tr><tr><td class="caption">Groß</td><td id="big"></td></tr><tr><td class="caption">Sehr groß</td><td id="verybig"></td></tr></table><div id="buttonWebseite" >Zur Webseite</div>'
+var shopscontent = '<h2 class="typing" id="heading">Dienstleister</h2><h4 style="color: rgb(144, 144, 144)" class="typing" id="type">Keine Service Zuordnung</h4><p style="margin-top: 20px" id="text"></p><ul style="margin-top: 30px"><li id="bullet1"></li><li id="bullet2">consectetur adipisicing elit</li><li id="bullet3">sed do eiusmod</li></ul><table id="sideBoxTable"><tr id="tabelHeading"><td>Anforderungen</td><td id="secondCell"></td></tr><tr><td class="caption">Sehr klein</td><td id="verysmall"></td></tr><tr><td class="caption">Klein</td><td id="small"></td></tr><tr><td class="caption">Mittelgroß</td><td id="medium"></td></tr><tr><td class="caption">Groß</td><td id="big"></td></tr><tr><td class="caption">Sehr groß</td><td id="verybig"></td></tr></table><div id="buttonWebseite" >Zur Webseite</div>'
 
 
 var shops = {
@@ -15,6 +15,7 @@ var shops = {
         verybig: ' ',
         angebunden: false,
         angebundenZukunft: false,
+        Servicetype: '',
         url: 'https://www.shopify.de'
     },
 
@@ -29,6 +30,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: 'X',
+        Servicetype: '',
     },
     Intershop: {
         title: 'Intershop',
@@ -41,6 +43,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Oxid: {
         title: 'Oxid',
@@ -53,6 +56,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Cosmoshop: {
         title: 'Cosmoshop',
@@ -65,6 +69,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Magento: {
         title: 'Magento',
@@ -77,6 +82,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Commercetools: {
         title: 'Commercetools',
@@ -89,6 +95,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Modified: {
         title: 'Modified',
@@ -101,6 +108,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Gambio: {
         title: 'Gambio',
@@ -113,6 +121,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Woocommerce: {
         title: 'Woocommerce',
@@ -125,6 +134,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Presta: {
         title: 'Presta',
@@ -137,6 +147,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     xtCommerce: {
         title: 'xtCommerce',
@@ -149,6 +160,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Lightspeed: {
         title: 'Shopify',
@@ -161,6 +173,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     OScommerce: {
         title: 'OScommerce',
@@ -173,6 +186,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     einsundeins: {
         title: '1und1',
@@ -185,6 +199,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Epages: {
         title: 'Epages',
@@ -197,6 +212,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Azoo: {
         title: 'Azoo',
@@ -209,6 +225,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Jimdo: {
         title: 'Jimdo',
@@ -221,6 +238,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Serverspot: {
         title: 'Serverspot',
@@ -233,6 +251,7 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
     Versacommerce: {
         title: 'Versacommerce',
@@ -245,5 +264,6 @@ var shops = {
         medium: 'X',
         big: 'X',
         verybig: ' ',
+        Servicetype: '',
     },
 }
