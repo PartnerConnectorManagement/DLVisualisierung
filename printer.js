@@ -217,9 +217,9 @@ function settingsBox(canvasSize) {
 window.onresize = function () {
     reDrawEverything();
 
-    if (window.innerWidth < 1390 && filterBoxVisible) {
+    if (window.innerWidth < 1200 && filterBoxVisible) {
         changeFilterBox();
-    } else if (window.innerWidth > 1390 && !filterBoxVisible) {
+    } else if (window.innerWidth > 1200 && !filterBoxVisible) {
         changeFilterBox();
     }
 };
