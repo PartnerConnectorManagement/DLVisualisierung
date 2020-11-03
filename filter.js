@@ -123,3 +123,36 @@ function restFilter() {
     checkPim = false;
     reDrawEverything();
 }
+
+let filterVisibleModal = false;
+
+function showFilter() {
+    let blackBox = document.getElementById('blackBox');
+    let filterBox = document.getElementById('filterBox')
+    if (!filterVisibleModal) {
+        blackBox.style.visibility = 'hidden';
+        filterBox.style.visibility = 'hidden';
+        filterBox.style.position = 'absolute';
+        filterBox.style.left = '';
+        filterBox.style.marginLeft = ''
+    } else {
+        blackBox.style.visibility = 'visible';
+        filterBox.style.visibility = 'visible';
+        filterBox.style.position = 'fixed';
+        filterBox.style.left = '50%';
+        filterBox.style.marginLeft = '-150px'
+    }
+}
+
+function switchModal() {
+    if (filterVisibleModal) {
+        filterVisibleModal = false;
+    } else {
+        filterVisibleModal = true;
+    }
+}
+
+function doModal() {
+    switchModal();
+    showFilter();
+}

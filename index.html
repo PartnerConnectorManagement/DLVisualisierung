@@ -114,6 +114,7 @@
                 border: 1px solid #c4c4c4;
                 bottom: 18px;
                 top: 80px;
+                z-index: 2500;
             }
 
             #filterBox h3 {
@@ -288,7 +289,7 @@
                 margin-top: 20px;
             }
 
-            #buttonOttoStyle {
+            .buttonOttoStyle {
                 background-color: #d4021d;
                 width: 260px;
                 padding-top: 8px;
@@ -299,9 +300,21 @@
                 text-align: center;
                 color: white;
             }
-            #buttonOttoStyle:Hover {
+
+            .buttonOttoStyle:Hover {
                 cursor: pointer;
             }
+
+            #blackBox {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2000;
+                visibility: hidden;
+            }
+
+
 
         </style>
 
@@ -321,6 +334,8 @@
             window.open(url);
         }
     </script>
+
+    <div id="blackBox" onmousedown="doModal()"></div>
 
     <div id="navigation" class="ottosans">
         <h1 id="headingPage" >Dienstleister Visualisierung</h1>
@@ -348,6 +363,8 @@
                 <div class="buttonText" id="buttonText2">An</div>
                 <div id="moverWaWi">WaWis</div>
             </div>
+
+            <div onmousedown="doModal()" class="buttonOttoStyle" id="buttonShowFilter" onmousedown="restFilter()">Filter anzeigen</div>
         </div>
 
         <div id="filterBox">
@@ -431,7 +448,7 @@
                 <p>Keine Zuordnung</p>
             </div>
 
-            <div id="buttonOttoStyle" onmousedown="restFilter()">Filter reset</div>
+            <div class="buttonOttoStyle" onmousedown="restFilter()">Filter reset</div>
 
         </div>
 

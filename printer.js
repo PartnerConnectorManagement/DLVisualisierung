@@ -216,7 +216,29 @@ function settingsBox(canvasSize) {
 
 window.onresize = function () {
     reDrawEverything();
+
+    if (window.innerWidth < 1390 && filterBoxVisible) {
+        changeFilterBox();
+    } else if (window.innerWidth > 1390 && !filterBoxVisible) {
+        changeFilterBox();
+    }
 };
+
+let filterBoxVisible = true;
+
+function changeFilterBox() {
+    let filterBox = document.getElementById('filterBox');
+    if (filterBoxVisible) {
+        filterBoxVisible = false;
+        filterBox.style.visibility = 'hidden';
+        document.getElementById('buttonShowFilter').style.visibility = 'visible';
+    } else {
+        filterBoxVisible = true;
+        filterBox.style.visibility = 'visible';
+        filterVisibleModal = false;
+        document.getElementById('buttonShowFilter').style.visibility = 'hidden';
+    }
+}
 
 function filterBoxPosition() {
     let canvaswidthOld = document.getElementById('canvas').style.width;
@@ -229,6 +251,9 @@ function reDrawEverything() {
     drawBackground();
     setImages();
     filterBoxPosition();
+    if (!filterBoxVisible) {
+        showFilter();
+    }
 }
 
 window.onload = function () {
@@ -241,6 +266,13 @@ window.onload = function () {
     setImages();
     filterBoxPosition();
 
+    if (window.innerWidth < 1390) {
+        filterBoxVisible = true;
+        changeFilterBox();
+    } else if (window.innerWidth > 1390) {
+        filterBoxVisible = false;
+        changeFilterBox();
+    }
 
 /*
     for (var i = 0; i < images.length; i++) {
