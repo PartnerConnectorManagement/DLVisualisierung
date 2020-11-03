@@ -66,12 +66,37 @@ function setImagesNew() {
 
     if (futureVisible) {
         for (var i = 0; i < allDLNames.length; i++) {
+            if (checkWaWi && dl[allDLNames[i]].WaWiSystem !== 'X') {
+                hideImage(allDLNames[i]);
+                continue;
+            }
+            if (checkShopsystem && dl[allDLNames[i]].Shopsystem !== 'X') {
+                hideImage(allDLNames[i]);
+                continue;
+            }
+            if (checkPim && dl[allDLNames[i]].PimSystem !== 'X') {
+                hideImage(allDLNames[i]);
+                continue;
+            }
+
           firstCircle[allDLNames[i]]=(dl[allDLNames[i]]);
           firstCircle[allDLNames[i]].type = 'DL';
           showImage(allDLNames[i]);
         }
         for (var i = 0; i < allShopsNames.length; i++) {
           if (shops[allShopsNames[i]].angebundenZukunft === true) {
+              if (checkWaWi && shops[allShopsNames[i]].WaWiSystem !== 'X') {
+                  hideImage(allShopsNames[i]);
+                  continue;
+              }
+              if (checkShopsystem && shops[allShopsNames[i]].Shopsystem !== 'X') {
+                  hideImage(allShopsNames[i]);
+                  continue;
+              }
+              if (checkPim && shops[allShopsNames[i]].PimSystem !== 'X') {
+                  hideImage(allShopsNames[i]);
+                  continue;
+              }
             firstCircle[allShopsNames[i]]=(shops[allShopsNames[i]]);
             firstCircle[allShopsNames[i]].type = 'SHOP';
           } else {
@@ -81,6 +106,18 @@ function setImagesNew() {
         }
         for (var i = 0; i < allWaWisNames.length; i++) {
           if (wawi[allWaWisNames[i]].angebundenZukunft === true) {
+              if (checkWaWi && wawi[allWaWisNames[i]].WaWiSystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+              if (checkShopsystem && wawi[allWaWisNames[i]].Shopsystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+              if (checkPim && wawi[allWaWisNames[i]].PimSystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
             firstCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
             firstCircle[allWaWisNames[i]].type = 'WaWi';
           } else {
@@ -92,6 +129,18 @@ function setImagesNew() {
         for (var i = 0; i < allDLNames.length; i++) {
           console.log()
             if (dl[allDLNames[i]].angebunden) {
+                if (checkWaWi && dl[allDLNames[i]].WaWiSystem !== 'X') {
+                    hideImage(allDLNames[i]);
+                    continue;
+                }
+                if (checkShopsystem && dl[allDLNames[i]].Shopsystem !== 'X') {
+                    hideImage(allDLNames[i]);
+                    continue;
+                }
+                if (checkPim && dl[allDLNames[i]].PimSystem !== 'X') {
+                    hideImage(allDLNames[i]);
+                    continue;
+                }
                 firstCircle[allDLNames[i]]=(dl[allDLNames[i]]);
                 firstCircle[allDLNames[i]].type = 'DL';
             } else {
@@ -100,6 +149,18 @@ function setImagesNew() {
         }
         for (var i = 0; i < allShopsNames.length; i++) {
             if (shops[allShopsNames[i]].angebunden) {
+                if (checkWaWi && shops[allShopsNames[i]].WaWiSystem !== 'X') {
+                    hideImage(allShopsNames[i]);
+                    continue;
+                }
+                if (checkShopsystem && shops[allShopsNames[i]].Shopsystem !== 'X') {
+                    hideImage(allShopsNames[i]);
+                    continue;
+                }
+                if (checkPim && shops[allShopsNames[i]].PimSystem !== 'X') {
+                    hideImage(allShopsNames[i]);
+                    continue;
+                }
                 firstCircle[allShopsNames[i]]=(shops[allShopsNames[i]]);
                 firstCircle[allShopsNames[i]].type = 'SHOP';
             } else {
@@ -109,6 +170,18 @@ function setImagesNew() {
         }
         for (var i = 0; i < allWaWisNames.length; i++) {
           if (wawi[allWaWisNames[i]].angebunden === true) {
+              if (checkWaWi && wawi[allWaWisNames[i]].WaWiSystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+              if (checkShopsystem && wawi[allWaWisNames[i]].Shopsystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
+              if (checkPim && wawi[allWaWisNames[i]].PimSystem !== 'X') {
+                  hideImage(allWaWisNames[i]);
+                  continue;
+              }
             firstCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
             firstCircle[allWaWisNames[i]].type = 'WaWi';
           } else {

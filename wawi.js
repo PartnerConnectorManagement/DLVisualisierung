@@ -5,46 +5,82 @@ var wawi = {
     Actindo: {
         title: 'Actindo',
         angebunden: false,
-        angebundenZukunft: true
+        angebundenZukunft: true,
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: 'X',
     },
     Sage: {
-        titel: 'sage'
+        titel: 'sage',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: 'X',
     },
     Pixi: {
-      titel: 'Pixi'
+      titel: 'Pixi',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     Xentral: {
-      titel: 'Xentral'
+      titel: 'Xentral',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     SAP: {
-      titel: 'SAP'
+      titel: 'SAP',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     Mircosoft: {
-      titel: 'Mircosoft'
+      titel: 'Mircosoft',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     SOG: {
       titel: 'SOG',
-      url: 'https://www.sog.de/erp-warenwirtschaft/'
+      url: 'https://www.sog.de/erp-warenwirtschaft/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     SelectLine: {
       titel: 'SelectLine',
-      url: 'https://www.selectline.de/'
+      url: 'https://www.selectline.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     Softengine: {
       titel: 'SoftENGINE',
-      url: 'https://www.softengine.de/erp-software/'
+      url: 'https://www.softengine.de/erp-software/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     vs4: {
       titel: 'vs/4',
-      url: 'https://www.dug-software.de/D-G-Versandhaus-System-VS/4'
+      url: 'https://www.dug-software.de/D-G-Versandhaus-System-VS/4',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     Evelopment: {
       titel: 'E-velopment',
-      url: 'https://www.e-velopment.de/'
+      url: 'https://www.e-velopment.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     Ebootis: {
       titel: 'eBootis',
-      url: 'https://www.ebootis.de/'
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
     },
     JTL: {
       title: 'JTL',

@@ -218,10 +218,17 @@ window.onresize = function () {
     reDrawEverything();
 };
 
+function filterBoxPosition() {
+    let canvaswidthOld = document.getElementById('canvas').style.width;
+    let canvaswidth = parseInt(canvaswidthOld.substring(0, canvaswidthOld.length - 2));
+    document.getElementById('filterBox').style.left = canvaswidth + 390 + 'px';
+}
+
 function reDrawEverything() {
     calculateSize();
     drawBackground();
     setImages();
+    filterBoxPosition();
 }
 
 window.onload = function () {
@@ -232,7 +239,7 @@ window.onload = function () {
     drawBackground();
     document.getElementById('sideBox').innerHTML = tutorial;
     setImages();
-
+    filterBoxPosition();
 
 
 /*
