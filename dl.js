@@ -383,7 +383,28 @@ var dl = {
 
         ],
         WaWi: [
-            
+
+        ],
+        DL: [
+
+        ]
+    },
+    forbeyond: {
+        title: 'forbeyond',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        Shopsystem: '',
+        PimSystem: 'X',
+        WaWiSystem: '',
+        angebunden: true,
+        Servicetype: '',
+        shopSysteme: [
+
+        ],
+        WaWi: [
+
         ],
         DL: [
 
