@@ -217,9 +217,9 @@ function settingsBox(canvasSize) {
 window.onresize = function () {
     reDrawEverything();
 
-    if (window.innerWidth < 1200 && filterBoxVisible) {
+    if (window.innerWidth < 1500 && filterBoxVisible) {
         changeFilterBox();
-    } else if (window.innerWidth > 1200 && !filterBoxVisible) {
+    } else if (window.innerWidth > 1500 && !filterBoxVisible) {
         changeFilterBox();
     }
 };
@@ -266,10 +266,10 @@ window.onload = function () {
     setImages();
     filterBoxPosition();
 
-    if (window.innerWidth < 1390) {
+    if (window.innerWidth < 1490) {
         filterBoxVisible = true;
         changeFilterBox();
-    } else if (window.innerWidth > 1390) {
+    } else if (window.innerWidth > 1490) {
         filterBoxVisible = false;
         changeFilterBox();
     }
