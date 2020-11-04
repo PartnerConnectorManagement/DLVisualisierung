@@ -425,10 +425,11 @@ function press(input, type) {
     } else if (type === 'SHOP') {
 
         var allDLArray  = Object.keys(dl);
+        var allWaWiArray  = Object.keys(wawi);
         for (var i = 0; i < allDLArray.length; i++) {
             if (!futureVisible && !dl[allDLArray[i]].angebunden) {
                 //console.log(allDLArray[i]);
-                break;
+                continue;
             }
             for (var ii = 0; ii < dl[allDLArray[i]].shopSysteme.length; ii++) {
                 if (dl[allDLArray[i]].shopSysteme[ii] === input) {
@@ -442,6 +443,30 @@ function press(input, type) {
                 }
             }
         }
+
+        for (var i = 0; i < allWaWiArray.length; i++) {
+            if (!futureVisible && !wawi[allWaWiArray[i]].angebunden) {
+                //console.log(allDLArray[i]);
+                continue;
+            }
+
+            if (wawi[allWaWiArray[i]].shopSysteme == null) {
+                continue;
+            }
+            for (var ii = 0; ii < wawi[allWaWiArray[i]].shopSysteme.length; ii++) {
+                if (wawi[allWaWiArray[i]].shopSysteme[ii] === input) {
+                    ctx.beginPath();
+                    ctx.moveTo((leftInt-canvasLeft+heightInt/2)+moveX, (topInt-canvasTop+heightInt/2)+moveY);
+                    ctx.lineTo(wawi[allWaWiArray[i]].x+moveX, wawi[allWaWiArray[i]].y+moveY);
+                    ctx.strokeStyle = '#C8C8C8';
+                    ctx.stroke();
+
+                    document.getElementById(allWaWiArray[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
+                }
+            }
+
+        }
+
     } else if (type === 'WaWi') {
         var allDLArray  = Object.keys(dl);
 
