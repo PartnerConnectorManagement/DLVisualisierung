@@ -367,5 +367,26 @@ var dl = {
             'Billbee',
             'Tradebyte'
         ]
+    },
+    onquality: {
+        title: 'OnQuality',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        Shopsystem: '',
+        PimSystem: 'X',
+        WaWiSystem: '',
+        angebunden: true,
+        Servicetype: 'FullServiceProvider',
+        shopSysteme: [
+
+        ],
+        WaWi: [
+            
+        ],
+        DL: [
+
+        ]
     }
 }
