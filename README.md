@@ -1,8 +1,8 @@
 # DLVisualisierung
-==================
+======
 
 ## Content
-=================
+======
 1. Der generelle Aufbau
 1. Erstellung eines DL/WaWi/Shops
 
