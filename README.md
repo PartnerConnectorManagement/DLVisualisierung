@@ -21,9 +21,11 @@ Fuer die Erstellung eines neuen DL/WaWi/Shops, auch wenn es drei unterschiedlich
 
 Zuerst muss das Logo in der beigelegten PowerPoint im Teams erstellt werden. Dann als ein Bild exportieren und in den Ordner images legen. Erstmal muss geguckt werden, welche Art von ServiceProvider eingetragen werden soll und es muss sich vorab eine id fuer den ServiceProvider ausgedacht werden, die im kompletten Dokument einheitlich verwendet wird. In diesem Beispiel nutzen wir immer die ID `ServiceProvider123`  In der `index.html` wird nun der ServiceProvider eingetragen.
 
+Beachte die Woerter `DL`, `SHOP` und `WaWi`, die immer in der Funktion `onmousedown` und der `class` stehen. Wenn ihr Groß-/ Kleinschreibung nicht richtig sind, funktioniert das Programm nicht.
+
 ### DL
 ```html
-<img alt="test" src="images/ServiceProvider123.png" id="ServiceProvider123" class="SHOP" onmousedown="press('ServiceProvider123', 'DL')">
+<img alt="test" src="images/ServiceProvider123.png" id="ServiceProvider123" class="DL" onmousedown="press('ServiceProvider123', 'DL')">
 ```
 ### SHOP
 ```html
@@ -31,5 +33,5 @@ Zuerst muss das Logo in der beigelegten PowerPoint im Teams erstellt werden. Dan
 ```
 ### WaWi
 ```html
-<img alt="test" src="images/ServiceProvider123.png" id="ServiceProvider123" class="SHOP" onmousedown="press('ServiceProvider123', 'WaWi')">
+<img alt="test" src="images/ServiceProvider123.png" id="ServiceProvider123" class="WaWi" onmousedown="press('ServiceProvider123', 'WaWi')">
 ```
