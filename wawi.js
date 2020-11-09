@@ -10,6 +10,9 @@ var wawi = {
         PimSystem: '',
         WaWiSystem: 'X',
         Servicetype: '',
+        shopSysteme: [
+
+        ]
     },
     Sage: {
         title: 'sage',
@@ -17,6 +20,9 @@ var wawi = {
         PimSystem: '',
         WaWiSystem: 'X',
         Servicetype: '',
+        shopSysteme: [
+
+        ]
     },
     Pixi: {
       title: 'Pixi',
@@ -24,6 +30,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     Xentral: {
       title: 'Xentral',
@@ -31,6 +40,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     SAP: {
       title: 'SAP',
@@ -38,6 +50,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     Mircosoft: {
       title: 'Mircosoft',
@@ -45,6 +60,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     SOG: {
       title: 'SOG',
@@ -53,6 +71,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     SelectLine: {
       title: 'SelectLine',
@@ -61,6 +82,10 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
+
     },
     Softengine: {
       title: 'SoftENGINE',
@@ -69,6 +94,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     vs4: {
       title: 'vs/4',
@@ -77,6 +105,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     Evelopment: {
       title: 'E-velopment',
@@ -85,6 +116,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     Ebootis: {
       title: 'eBootis',
@@ -93,6 +127,9 @@ var wawi = {
       PimSystem: '',
       WaWiSystem: 'X',
       Servicetype: '',
+      shopSysteme: [
+
+      ]
     },
     JTL: {
       title: 'JTL',

@@ -275,7 +275,7 @@ function setImagesNew() {
                   hideImage(allWaWisNames[i]);
                   continue;
               }
-            firstCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
+            firstCircle[allWaWisNames[i]] = (wawi[allWaWisNames[i]]);
             firstCircle[allWaWisNames[i]].type = 'WaWi';
           } else {
             thirdCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
@@ -283,6 +283,27 @@ function setImagesNew() {
           }
         }
     }
+
+    let firstCircleItems = Object.keys(firstCircle);
+    let secondCircleItems = Object.keys(secondCircle);
+    let thirdCircleItems = Object.keys(thirdCircle);
+
+    for (var i = 0; i < secondCircleItems.length; i++) {
+        let angebunden = false;
+        for (var ii = 0; ii < firstCircleItems.length; ii++) {
+            for (var iii = 0; iii < firstCircle[firstCircleItems[ii]].shopSysteme.length; iii++) {
+                if (firstCircle[firstCircleItems[ii]].shopSysteme[iii] == secondCircleItems[i]) {
+                    angebunden = true;
+                    break;
+                }
+            }
+        }
+        if (!angebunden) {
+            delete secondCircle[secondCircleItems[i]]
+            hideImage(secondCircleItems[i])
+        }
+    }
+
 
     let angelFirstCircle = 360/Object.keys(firstCircle).length;
     let angelSecondCircle = 360/Object.keys(secondCircle).length;
