@@ -92,3 +92,111 @@ Der Servicetype defineirt, welche Art von ServiceProvider der DL ist. Es gibt in
 2. `SpecialServiceProvider`
 3. `AgenturProvider`
 4. `ContentProvider`
+
+
+##### `shopSysteme`
+shopSysteme ist eine Liste von allen Shops die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
+
+##### `WaWi`
+WaWi ist eine Liste von allen WaWis die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
+
+
+
+#### SHOP
+```javascript
+ServiceProvider123: {
+    title: 'ServiceProvider123',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    verysmall: 'X',
+    small: 'X',
+    medium: 'X',
+    big: 'X',
+    verybig: 'X',
+    Servicetype: '',
+    angebunden: false,
+    angebundenZukunft: false,
+}
+```
+
+##### `titel`
+Das Attribute Titel ist der Name der in der Sidebar angezeigt wird. Dieser kann varrieren von der ID und kann komplett frei gestaltet werden. Er ist ein Pflichtattribute und sollte auch befuellt werden.
+
+##### `text`
+Das Attribute text ist der Beschreibungstext in der Sidebar. Dieser ist ein Pflichtattribute und muss nicht befuellt werden. Er soll den ServiceProvider kurz beschreiben und kann auch ein Marketingtext vom ServiceProvider sein.
+
+##### `verysmall`, `small`, `medium`, `big`, `verybig`
+Diese Attribute fuellen die Tabelle in der Sidebar. Diese sind Pflichtattribute und sollten auch befuellt werden. Um es insgesamt einheitlich zu halten, sollte diese mit `''` oder `'X'` befuellt werden. Sie defienieren, fuer welche Groeße von Partner der Shop geeignet ist.
+
+##### `bullet1`, `bullet2`, `bullet3`
+Diese Attribute fuellen die Bulletpoints in der Sidebar und sind keine Pflichtattribute. Es koennen auch nur 1 oder 2 der drei Bulletpoints verwendet werden.
+
+##### `angebunden`
+Dieses Attribute definiert, ob der Shop aktuell angebunden ist. Wenn er angebunden ist, dann muss der Value `true` sein. Wenn nicht kann er entweder auf `false` gesetzt werden oder vollstaendig weggelassen. Empfohlen wird, dass der value aber auf `false` gesetzt wird.
+
+##### `angebundenZukunft`
+Dieses Attribute definiert, ob der Shop in Zukunft angebunden ist. Wenn er in Zukunft angebunden ist, dann muss der Value `true` sein. Wenn nicht kann er entweder auf `false` gesetzt werden oder vollstaendig weggelassen. Empfohlen wird, dass der Value aber auf `false` gesetzt wird.
+
+##### `Servicetype`
+Der Servicetype defineirt, welche Art von ServiceProvider der DL ist. Es gibt insgesamt vier verschiedenen Moeglichkeiten, die im folgenden aufgelistet werden. Hier ist wieder die richtige Schreibweise wichtig.
+1. `FullServiceProvider`
+2. `SpecialServiceProvider`
+3. `AgenturProvider`
+4. `ContentProvider`
+
+
+#### WaWi
+```javascript
+ServiceProvider123: {
+    title: 'ServiceProvider123',
+    text: '',
+    Shopsystem: 'X',
+    PimSystem: 'X',
+    WaWiSystem: 'X',
+    bullet1: 'Dies ist ein Bullet Punkt',
+    bullet2: 'Dies ist ein Bullet Punkt',
+    bullet3: 'Dies ist ein Bullet Punkt',
+    angebunden: false,
+    angebundenZukunft: true,
+    Servicetype: '',
+    shopSysteme: [
+        'Shop 1',
+        'Shop 2'
+    ]
+}
+```
+
+##### `titel`
+Das Attribute Titel ist der Name der in der Sidebar angezeigt wird. Dieser kann varrieren von der ID und kann komplett frei gestaltet werden. Er ist ein Pflichtattribute und sollte auch befuellt werden.
+
+##### `text`
+Das Attribute text ist der Beschreibungstext in der Sidebar. Dieser ist ein Pflichtattribute und muss nicht befuellt werden. Er soll den ServiceProvider kurz beschreiben und kann auch ein Marketingtext vom ServiceProvider sein.
+
+##### `Shopsystem`, `PimSystem`, `WaWiSystem`
+Diese Attribute fuellen die Tabelle in der Sidebar. Diese sind Pflichtattribute und sollten auch befuellt werden. Um es insgesamt einheitlich zu halten, sollte diese mit `''` oder `'X'` befuellt werden.
+
+##### `bullet1`, `bullet2`, `bullet3`
+Diese Attribute fuellen die Bulletpoints in der Sidebar und sind keine Pflichtattribute. Es koennen auch nur 1 oder 2 der drei Bulletpoints verwendet werden.
+
+##### `angebunden`
+Dieses Attribute definiert, ob die WaWi aktuell angebunden ist. Wenn sie bereits jetzt angebunden ist, dann muss der Value `true` sein. Wenn nicht kann es entweder auf `false` gesetzt werden oder vollstaendig weggelassen. Empfohlen wird, dass der Value aber auf `false` gesetzt wird.
+
+##### `angebundenZukunft`
+Dieses Attribute definiert, ob die WaWi in Zukunft angebunden ist. Wenn er in Zukunft angebunden ist, dann muss der Value `true` sein. Wenn nicht kann er entweder auf `false` gesetzt werden oder vollstaendig weggelassen. Empfohlen wird, dass der Value aber auf `false` gesetzt wird.
+
+
+##### `Servicetype`
+Der Servicetype defineirt, welche Art von ServiceProvider der DL ist. Es gibt insgesamt vier verschiedenen Moeglichkeiten, die im folgenden aufgelistet werden. Hier ist wieder die richtige Schreibweise wichtig.
+1. `FullServiceProvider`
+2. `SpecialServiceProvider`
+3. `AgenturProvider`
+4. `ContentProvider`
+
+
+##### `shopSysteme`
+shopSysteme ist eine Liste von allen Shops die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
+
+##### `WaWi`
+WaWi ist eine Liste von allen WaWis die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
