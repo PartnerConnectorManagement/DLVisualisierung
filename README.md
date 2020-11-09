@@ -55,6 +55,9 @@ ServiceProvider123: {
     Shopsystem: 'X',
     PimSystem: 'X',
     WaWiSystem: 'X',
+    bullet1: 'Dies ist ein Bullet Punkt',
+    bullet2: 'Dies ist ein Bullet Punkt',
+    bullet3: 'Dies ist ein Bullet Punkt',
     angebunden: true,
     Servicetype: '',
     shopSysteme: [
@@ -63,19 +66,9 @@ ServiceProvider123: {
     ],
     WaWi: [
         'WaWi 1',
-        'WaWi 2',
-        'Xentral',
-        'Mircosoft',
-        'SAP',
-        'Pixi',
-        'SOG',
-        'SelectLine',
-        'Softengine',
-        'vs4',
-        'Evelopment',
-        'Ebootis'
+        'WaWi 2'
     ]
-},
+}
 ```
 
 ##### `titel`
@@ -83,3 +76,19 @@ Das Attribute Titel ist der Name der in der Sidebar angezeigt wird. Dieser kann 
 
 ##### `text`
 Das Attribute text ist der Beschreibungstext in der Sidebar. Dieser ist ein Pflichtattribute und muss nicht befuellt werden. Er soll den ServiceProvider kurz beschreiben und kann auch ein Marketingtext vom ServiceProvider sein.
+
+##### `Shopsystem`, `PimSystem`, `WaWiSystem`
+Diese Attribute fuellen die Tabelle in der Sidebar. Diese sind Pflichtattribute und sollten auch befuellt werden. Um es insgesamt einheitlich zu halten, sollte diese mit `''` oder `'X'` befuellt werden.
+
+##### `bullet1`, `bullet2`, `bullet3`
+Diese Attribute fuellen die Bulletpoints in der Sidebar und sind keine Pflichtattribute. Es koennen auch nur 1 oder 2 der drei Bulletpoints verwendet werden.
+
+##### `angebunden`
+Dieses Attribute definiert, ob der DL aktuell angebunden ist. Wenn er bereits jetzt angebunden ist, dann muss der Value `true` sein. Wenn nicht kann er entweder auf `false` gesetzt werden oder vollstaendig weggelassen. Empfohlen wird, dass der value aber auf `false` gesetzt wird.
+
+##### `Servicetype`
+Der Servicetype defineirt, welche Art von ServiceProvider der DL ist. Es gibt insgesamt vier verschiedenen Moeglichkeiten, die im folgenden aufgelistet werden. Hier ist wieder die richtige Schreibweise wichtig.
+1. `FullServiceProvider`
+2. `SpecialServiceProvider`
+3. `AgenturProvider`
+4. `ContentProvider`
