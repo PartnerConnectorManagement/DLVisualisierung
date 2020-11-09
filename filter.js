@@ -107,6 +107,8 @@ function keineZuordnungFilter() {
 }
 
 function restFilter() {
+    document.getElementById('checkFullService').style.visibility = 'visible';
+    checkFullService = true;
     document.getElementById('checkSpecialService').style.visibility = 'visible';
     checkSpecialService = true;
     document.getElementById('checkAgentur').style.visibility = 'visible';
