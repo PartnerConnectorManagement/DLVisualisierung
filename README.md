@@ -48,7 +48,7 @@ Beachte die Woerter `DL`, `SHOP` und `WaWi`, die immer in der Funktion `onmoused
 Nun muessen noch die Daten in den einzelnen Dateien geplegt werden. Diese sind immer in JS Objekte eingetragen, verhalten sich aber aehnlich zu JSON Dateien. Es gibt hierbei Pflichtattribute und freiwillige Attribute. Diese varrieren zwischen DL, Shop und WaWi. Es gibt Pflichtattribute, die aber dennoch auch leer gelassen werden koennen. Das gilt zum Beispiel fuer die Texte in der Infobox.
 
 #### DL
-```json
+```javascript
 ServiceProvider123: {
     title: 'ServiceProvider123',
     text: '',
