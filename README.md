@@ -68,7 +68,7 @@ ServiceProvider123: {
         'WaWi 1',
         'WaWi 2'
     ],
-    DL [
+    DL: [
         'DL 1',
         'DL 2'
     ]
