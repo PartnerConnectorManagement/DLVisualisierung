@@ -443,7 +443,7 @@ var dl = {
         angebunden: false,
         Servicetype: '',
         shopSysteme: [
-            'Magento',
+            'Magento'
         ],
         WaWi: [
             
