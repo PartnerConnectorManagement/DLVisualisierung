@@ -430,5 +430,26 @@ var dl = {
         DL: [
 
         ]
+    },
+    cleverzoeger: {
+        title: 'Clever und Zoeger',
+        text: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: false,
+        Servicetype: '',
+        shopSysteme: [
+            'Magento',
+        ],
+        WaWi: [
+            
+        ],
+        DL [
+            
+        ]
     }
 }
