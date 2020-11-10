@@ -409,5 +409,26 @@ var dl = {
         DL: [
 
         ]
+    },
+    gojungo: {
+        title: 'GoJungo',
+        text: 'GoJungo ist ein junges Startup-Unternehmen im Marktplatz-Business. Wir bringen Deine Marke schnell und einfach auf die nationalen und internationalen Marktplätze.',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        angebunden: true,
+        Servicetype: '',
+        shopSysteme: [
+
+        ],
+        WaWi: [
+
+        ],
+        DL: [
+
+        ]
     }
 }
