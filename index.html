@@ -48,10 +48,10 @@
 
         <div id="controller">
             <h2>Einstellungen</h2>
-            <div id="button2" onmousedown="moveButton()">
-                <div class="buttonText2">Aktuell</div>
-                <div class="buttonText2" id="buttonText22">Anbindung</div>
-                <div class="buttonText2" id="buttonText23">Zukunft</div>
+            <div id="button2">
+                <div class="buttonText2" onmousedown="moveButtonState(0)">Aktuell</div>
+                <div class="buttonText2" id="buttonText22" onmousedown="moveButtonState(1)">Anbindung</div>
+                <div class="buttonText2" id="buttonText23" onmousedown="moveButtonState(2)">Zukunft</div>
                 <div id="mover2" >Aktuell</div>
             </div>
 
