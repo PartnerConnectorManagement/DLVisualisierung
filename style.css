@@ -317,3 +317,75 @@ td, tr {
 #closeButton:Hover {
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button2 {
+    background-color: #eee;
+    width: 260px;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+}
+
+#mover2 {
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 3px;
+    background-color: #d4021d;
+    color: white;
+    width: 86.666666px;
+    text-align: center;
+    transition: 300ms;
+    position: relative;
+    left: 0px;
+    float: inherit;
+    top: -105px;
+}
+
+#mover2:Hover {
+    cursor: pointer;
+}
+
+
+#button2:hover {
+    cursor: pointer;
+}
+
+.buttonText2 {
+    position: relative;
+    height: 28px;
+    width: 86.666666px;
+    text-align: center;
+    padding-top: 7px;
+    color: rgb(144, 144, 144);
+
+}
+
+#buttonText22 {
+    top: -35px;
+    left: 86.666666px;
+}
+
+#buttonText23 {
+    top: -70px;
+    left: 173.3333333px
+
+}

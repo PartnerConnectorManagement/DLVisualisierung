@@ -1,6 +1,7 @@
 var buttonState = 0;
 var buttonStateWaWi = 0;
 var futureVisible = false;
+var progressVisible = false;
 var wawiVisible = false;
 
 function moveButton() {
@@ -18,6 +19,25 @@ function moveButton() {
         reDrawEverything();
     }
     reset();
+}
+
+
+function moveButton(state) {
+    if (state === 0) {
+        document.getElementById('mover2').style.left = '0px';
+        document.getElementById('mover2').innerHTML = 'Aktuell';
+        futureVisible = false;
+    } else if (state === 1) {
+        document.getElementById('mover2').style.left = '86.666666px';
+        document.getElementById('mover2').innerHTML = 'Anbindung';
+        futureVisible = false;
+        progressVisible = true;
+    } else if (state === 2) {
+        document.getElementById('mover2').style.left = '173.3333333px';
+        document.getElementById('mover2').innerHTML = 'Zukunft';
+        futureVisible = true;
+        progressVisible = false;
+    }
 }
 
 function moveButtonWaWi() {
