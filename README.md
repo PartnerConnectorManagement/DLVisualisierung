@@ -67,6 +67,10 @@ ServiceProvider123: {
     WaWi: [
         'WaWi 1',
         'WaWi 2'
+    ],
+    DL [
+        'DL 1',
+        'DL 2'
     ]
 }
 ```
@@ -99,6 +103,9 @@ shopSysteme ist eine Liste von allen Shops die an den ServiceProvider angebunden
 
 ##### `WaWi`
 WaWi ist eine Liste von allen WaWis die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
+
+##### `DL`
+DL ist eine Liste von allen Diensleistern die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
 
 
 
