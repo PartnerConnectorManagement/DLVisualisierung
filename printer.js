@@ -475,6 +475,13 @@ function press(input, type) {
         var allDLArray  = Object.keys(dl);
 
         for (var i = 0; i < allDLArray.length; i++) {
+            if (progressVisible && dl[allDLArray[i]].angebunden) {
+                continue;
+            } else if (!progressVisible && !futureVisible && !dl[allDLArray[i]].angebunden) {
+                //console.log(allDLArray[i]);
+                continue;
+            }
+
             for (var ii = 0; ii < dl[allDLArray[i]].WaWi.length; ii++) {
                 if (dl[allDLArray[i]].WaWi[ii] === input) {
                   ctx.beginPath();
@@ -491,6 +498,9 @@ function press(input, type) {
         if (wawi[input].shopSysteme != undefined) {
             for (var i = 0; i < wawi[input].shopSysteme.length; i++) {
 
+                if (document.getElementById(wawi[input].shopSysteme[i]).style.visibility == 'hidden') {
+                    continue;
+                }
                 document.getElementById(wawi[input].shopSysteme[i]).style.borderColor = 'rgba(240, 128, 128, 1)';
 
                 ctx.beginPath();
