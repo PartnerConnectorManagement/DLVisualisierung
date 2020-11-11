@@ -427,7 +427,9 @@ function press(input, type) {
         var allDLArray  = Object.keys(dl);
         var allWaWiArray  = Object.keys(wawi);
         for (var i = 0; i < allDLArray.length; i++) {
-            if (!futureVisible && !dl[allDLArray[i]].angebunden) {
+            if (progressVisible && dl[allDLArray[i]].angebunden) {
+                continue;
+            } else if (!progressVisible && !futureVisible && !dl[allDLArray[i]].angebunden) {
                 //console.log(allDLArray[i]);
                 continue;
             }
@@ -445,7 +447,9 @@ function press(input, type) {
         }
 
         for (var i = 0; i < allWaWiArray.length; i++) {
-            if (!futureVisible && !wawi[allWaWiArray[i]].angebunden) {
+            if (progressVisible && wawi[allWaWiArray[i]].angebunden) {
+                continue;
+            } else if (futureVisible && wawi[allWaWiArray[i]].angebunden) {
                 //console.log(allDLArray[i]);
                 continue;
             }
