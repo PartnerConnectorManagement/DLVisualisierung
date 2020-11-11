@@ -22,11 +22,12 @@ function moveButton() {
 }
 
 
-function moveButton(state) {
+function moveButtonState(state) {
     if (state === 0) {
         document.getElementById('mover2').style.left = '0px';
         document.getElementById('mover2').innerHTML = 'Aktuell';
         futureVisible = false;
+        progressVisible = false;
     } else if (state === 1) {
         document.getElementById('mover2').style.left = '86.666666px';
         document.getElementById('mover2').innerHTML = 'Anbindung';
@@ -38,6 +39,8 @@ function moveButton(state) {
         futureVisible = true;
         progressVisible = false;
     }
+    reDrawEverything();
+    reset();
 }
 
 function moveButtonWaWi() {
