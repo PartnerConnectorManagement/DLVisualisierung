@@ -358,9 +358,8 @@ var dl = {
 
         ],
         WaWi: [
-            'JTL',
-            'weclapp',
-            'Dreamrobot'
+            'JTL'
+
         ],
         DL: [
             'Plentymarkets',
@@ -446,10 +445,10 @@ var dl = {
             'Magento'
         ],
         WaWi: [
-            
+
         ],
         DL: [
-            
+
         ]
     }
 }
