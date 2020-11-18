@@ -450,5 +450,26 @@ var dl = {
         DL: [
 
         ]
+    },
+    testDL: {
+        title: 'Test DL',
+        text: '',
+        Shopsystem: '',
+        PimSystem: 'X',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: false,
+        Servicetype: 'AgenturProvider',
+        shopSysteme: [
+            'Magento'
+        ],
+        WaWi: [
+            'JTL'
+        ],
+        DL: [
+
+        ]
     }
 }
