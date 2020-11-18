@@ -451,25 +451,30 @@ var dl = {
 
         ]
     },
-    testDL: {
-        title: 'Test DL',
+    charry: {
+        title: 'Charry',
         text: '',
         Shopsystem: '',
-        PimSystem: 'X',
+        PimSystem: '',
         WaWiSystem: '',
         bullet1: '',
         bullet2: '',
         bullet3: '',
         angebunden: false,
-        Servicetype: 'AgenturProvider',
+        Servicetype: 'SpecialServiceProvider',
         shopSysteme: [
-            'Magento'
+            'Shopware',
+            'Lightspeed',
+            'Woocommerce',
+            'Shopify',
+            'Serverspot',
+            
         ],
         WaWi: [
             'JTL'
         ],
         DL: [
-
+            'Billbee'
         ]
     }
 }
