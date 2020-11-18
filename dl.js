@@ -451,7 +451,7 @@ var dl = {
 
         ]
     },
-    charry: {
+    Charry: {
         title: 'Charry',
         text: '',
         Shopsystem: '',
