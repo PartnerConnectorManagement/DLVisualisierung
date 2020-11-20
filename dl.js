@@ -95,7 +95,7 @@ var dl = {
         WaWiSystem: '',
         big: 'X',
         verybig: '',
-        angebunden: false,
+        angebunden: true,
         Servicetype: '',
         shopSysteme: [
             'Shopware',
