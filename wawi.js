@@ -16,8 +16,8 @@ var wawi = {
             'Woocommerce',
             'Shopify',
             'Gambio',
-            'Xtcommerce'
-            
+            'xtCommerce'
+
         ]
     },
     Sage: {

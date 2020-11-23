@@ -377,6 +377,10 @@ function press(input, type) {
     if (type === 'DL') {
 
         for (var i = 0; i < dl[input].shopSysteme.length; i++) {
+            if (document.getElementById(dl[input].shopSysteme[i]) == null) {
+                alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                reset();
+            }
             if (shops[dl[input].shopSysteme[i]] == null) {
               alert("Can't find the Shopsystem " + dl[input].shopSysteme[i]);
               break;
@@ -398,6 +402,10 @@ function press(input, type) {
 
         for (var i = 0; i < dl[input].WaWi.length; i++) {
             if (document.getElementById(dl[input].WaWi[i]) == null) {
+                alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                reset();
+            }
+            if (document.getElementById(dl[input].WaWi[i]) == null) {
               break;
             }
             if (document.getElementById(dl[input].WaWi[i]).style.visibility == 'hidden') {
@@ -415,6 +423,11 @@ function press(input, type) {
 
         if (dl[input].DL === null) {
           for (var i = 0; i < dl[input].DL.length; i++) {
+              if (document.getElementById(dl[input].DL[i]) == null) {
+                  alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                  reset();
+              }
+
               if (document.getElementById(dl[input].DL[i]).style.visibility == 'hidden') {
                   continue;
               }
@@ -442,6 +455,11 @@ function press(input, type) {
                 continue;
             }
             for (var ii = 0; ii < dl[allDLArray[i]].shopSysteme.length; ii++) {
+                if (document.getElementById(dl[allDLArray[i]]) == null) {
+                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                    reset();
+                }
+
                 if (document.getElementById(dl[allDLArray[i]].shopSysteme[ii]).style.visibility == 'hidden') {
                     continue;
                 }
@@ -469,6 +487,10 @@ function press(input, type) {
                 continue;
             }
             for (var ii = 0; ii < wawi[allWaWiArray[i]].shopSysteme.length; ii++) {
+                if (document.getElementById(wawi[allWaWiArray[i]].shopSysteme[ii]) == null) {
+                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                    reset();
+                }
                 if (document.getElementById(wawi[allWaWiArray[i]].shopSysteme[ii]).style.visibility == 'hidden') {
                     continue;
                 }
@@ -497,6 +519,11 @@ function press(input, type) {
             }
 
             for (var ii = 0; ii < dl[allDLArray[i]].WaWi.length; ii++) {
+                if (document.getElementById(allDLArray[i]) == null) {
+                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                    reset();
+                }
+
                 if (document.getElementById(allDLArray[i]).style.visibility == 'hidden') {
                     continue;
                 }
@@ -515,6 +542,10 @@ function press(input, type) {
         if (wawi[input].shopSysteme != undefined) {
             for (var i = 0; i < wawi[input].shopSysteme.length; i++) {
 
+                if (document.getElementById(wawi[input].shopSysteme[i]) == null) {
+                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                    reset();
+                }
                 if (document.getElementById(wawi[input].shopSysteme[i]).style.visibility == 'hidden') {
                     continue;
                 }
