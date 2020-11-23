@@ -53,7 +53,8 @@ var dl = {
             'Oxid'
         ],
         WaWi: [
-          'Pixi'
+          'Pixi',
+          'Actindo'
         ]
     },
     Vario: {
