@@ -11,7 +11,13 @@ var wawi = {
         WaWiSystem: 'X',
         Servicetype: '',
         shopSysteme: [
-
+            'Shopware',
+            'Magento',
+            'Woocommerce',
+            'Shopify',
+            'Gambio',
+            'Xtcommerce'
+            
         ]
     },
     Sage: {
