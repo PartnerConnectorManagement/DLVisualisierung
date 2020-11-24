@@ -378,7 +378,7 @@ function press(input, type) {
 
         for (var i = 0; i < dl[input].shopSysteme.length; i++) {
             if (document.getElementById(dl[input].shopSysteme[i]) == null) {
-                alert('You probably missed the correct writing: ' + dl[input].shopSysteme[i] + '\n ErrorCode: 50');
+                alert('You probably missed the correct writing: ' + dl[input].shopSysteme[i] + '\n ErrorCode: 102');
                 reset();
             }
             if (shops[dl[input].shopSysteme[i]] == null) {
@@ -402,7 +402,7 @@ function press(input, type) {
 
         for (var i = 0; i < dl[input].WaWi.length; i++) {
             if (document.getElementById(dl[input].WaWi[i]) == null) {
-                alert('You probably missed the correct writing: ' + dl[input].WaWi[i] + '\n ErrorCode: 50');
+                alert('You probably missed the correct writing: ' + dl[input].WaWi[i] + '\n ErrorCode: 103');
                 reset();
             }
             if (document.getElementById(dl[input].WaWi[i]) == null) {
@@ -424,7 +424,7 @@ function press(input, type) {
         if (dl[input].DL === null) {
           for (var i = 0; i < dl[input].DL.length; i++) {
               if (document.getElementById(dl[input].DL[i]) == null) {
-                  alert('You probably missed the correct writing: ' + dl[input].DL[i] + '\n ErrorCode: 50');
+                  alert('You probably missed the correct writing: ' + dl[input].DL[i] + '\n ErrorCode: 101');
                   reset();
               }
 
@@ -456,7 +456,7 @@ function press(input, type) {
             }
             for (var ii = 0; ii < dl[allDLArray[i]].shopSysteme.length; ii++) {
                 if (document.getElementById(dl[allDLArray[i]].shopSysteme[ii]) == null) {
-                    alert('You probably missed the correct writing: ' + dl[allDLArray[i]].shopSysteme[ii] + '\n ErrorCode: 50');
+                    alert('You probably missed the correct writing: ' + dl[allDLArray[i]].shopSysteme[ii] + '\n ErrorCode: 102');
                     reset();
                 }
 
@@ -488,7 +488,7 @@ function press(input, type) {
             }
             for (var ii = 0; ii < wawi[allWaWiArray[i]].shopSysteme.length; ii++) {
                 if (document.getElementById(wawi[allWaWiArray[i]].shopSysteme[ii]) == null) {
-                    alert('You probably missed the correct writing: ' + wawi[allWaWiArray[i]].shopSysteme[ii] + '\n ErrorCode: 50');
+                    alert('You probably missed the correct writing: ' + wawi[allWaWiArray[i]].shopSysteme[ii] + '\n ErrorCode: 202');
                     reset();
                 }
                 if (document.getElementById(wawi[allWaWiArray[i]].shopSysteme[ii]).style.visibility == 'hidden') {
@@ -520,7 +520,7 @@ function press(input, type) {
 
             for (var ii = 0; ii < dl[allDLArray[i]].WaWi.length; ii++) {
                 if (document.getElementById(allDLArray[i]) == null) {
-                    alert('You probably missed the correct writing: ' + allDLArray[i] + '\n ErrorCode: 50');
+                    alert('You probably missed the correct writing: ' + allDLArray[i] + '\n ErrorCode: 103');
                     reset();
                 }
 
@@ -543,7 +543,7 @@ function press(input, type) {
             for (var i = 0; i < wawi[input].shopSysteme.length; i++) {
 
                 if (document.getElementById(wawi[input].shopSysteme[i]) == null) {
-                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 50');
+                    alert('You probably missed the correct writing: ' + wawi[input].shopSysteme[i] + '\n ErrorCode: 202');
                     reset();
                 }
                 if (document.getElementById(wawi[input].shopSysteme[i]).style.visibility == 'hidden') {

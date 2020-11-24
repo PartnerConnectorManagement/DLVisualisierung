@@ -5,6 +5,7 @@
 
 1. Der generelle Aufbau
 1. Erstellung eines DL/WaWi/Shops
+1. Fehlercodes
 
 
 ## Der generelle Aufbau
@@ -207,3 +208,24 @@ shopSysteme ist eine Liste von allen Shops die an den ServiceProvider angebunden
 
 ##### `WaWi`
 WaWi ist eine Liste von allen WaWis die an den ServiceProvider angebunden sind. Hier ist wichtig, erneut die richtge Schreibweise zu verwenden.
+
+
+## Fehlercodes
+
+### `100`
+
+#### `101`
+Wahrscheinlich falsch geschriebener Dienstleister beim Dienstleister. Muss in der `dl.js` bearbeitet werden.
+
+#### `102`
+Wahrscheinlich falsch geschriebenes Shopsystem beim Dienstleister. Muss in der `dl.js` bearbeitet werden.
+
+#### `103`
+Wahrscheinlich falsch geschriebene WaWi beim Dienstleister. Muss in der `dl.js` bearbeitet werden.
+
+
+### `200`
+
+#### `202`
+
+Wahrscheinlich falsch geschriebenes Shopsystem bei der WaWi. Muss in der `wawi.js` bearbeitet werden.
