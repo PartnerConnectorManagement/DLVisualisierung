@@ -199,9 +199,9 @@ var wawi = {
 
       ]
     },
-    BSP: {
-      title: 'BSP',
-      url: 'https://www.ebootis.de/',
+    BITS: {
+      title: 'BITS',
+      url: 'https://www.brandt-software-produkte.de/',
       Shopsystem: '',
       PimSystem: '',
       WaWiSystem: 'X',
