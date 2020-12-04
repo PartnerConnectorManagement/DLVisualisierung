@@ -249,7 +249,7 @@ var dl = {
         WaWi: [
             'Roqqio',
             'Siller',
-            'höltl',
+            'hoeltl',
             'advarics',
             'IPOS',
             'BSP'
