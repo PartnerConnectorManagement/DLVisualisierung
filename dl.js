@@ -247,7 +247,12 @@ var dl = {
             'Magento'
         ],
         WaWi: [
-
+            'Roqqio',
+            'Siller',
+            'höltl',
+            'advarics',
+            'IPOS',
+            'BSP'
         ]
     },
     novomind: {
