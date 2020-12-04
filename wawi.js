@@ -154,5 +154,60 @@ var wawi = {
         ],
         angebunden: false,
         angebundenZukunft: true
+    },
+    Roqqio: {
+      title: 'Roqqio',
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
+    },
+   Siller: {
+      title: 'Siller',
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
+    },
+    hötlt: {
+      title: 'höltl',
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
+    },
+    IPOS: {
+      title: 'IPOS',
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
+    },
+    BSP: {
+      title: 'BSP',
+      url: 'https://www.ebootis.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
     }
 }
