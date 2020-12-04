@@ -209,5 +209,16 @@ var wawi = {
       shopSysteme: [
 
       ]
+    },
+    advarics: {
+      title: 'advarics',
+      url: 'https://www.brandt-software-produkte.de/',
+      Shopsystem: '',
+      PimSystem: '',
+      WaWiSystem: 'X',
+      Servicetype: '',
+      shopSysteme: [
+
+      ]
     }
 }
