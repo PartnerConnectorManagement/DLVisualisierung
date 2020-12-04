@@ -252,7 +252,7 @@ var dl = {
             'hoeltl',
             'advarics',
             'IPOS',
-            'BSP'
+            'BITS'
         ]
     },
     novomind: {
