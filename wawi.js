@@ -177,7 +177,7 @@ var wawi = {
 
       ]
     },
-    hoetlt: {
+    hoeltl: {
       title: 'hoeltl',
       url: 'https://www.ebootis.de/',
       Shopsystem: '',
