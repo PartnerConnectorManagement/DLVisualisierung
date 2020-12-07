@@ -37,7 +37,15 @@ var wawi = {
       WaWiSystem: 'X',
       Servicetype: '',
       shopSysteme: [
-
+        'Shopify',
+        'Magento',
+        'Intershop',
+        'Gambio',
+        'Cosmoshop',
+        'Woocommerce',
+        'xtCommerce',
+        'Shopware',
+        'Oxid'
       ]
     },
     Xentral: {
@@ -61,7 +69,7 @@ var wawi = {
       ]
     },
     Mircosoft: {
-      title: 'Mircosoft',
+      title: 'Microsoft',
       Shopsystem: '',
       PimSystem: '',
       WaWiSystem: 'X',
@@ -220,5 +228,102 @@ var wawi = {
       shopSysteme: [
 
       ]
-    }
+    },
+    Censhare: {
+      title: 'Censhare',
+      text: '',
+      Shopsystem: '',
+      PimSystem: 'X',
+      WaWiSystem: '',
+      Servicetype: '',
+      url: 'https://www.censhare.com/de/'
+  },
+  Pimcore: {
+    title: 'PIMCORE',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://pimcore.com/de'
+  },
+  Akeneo: {
+    title: 'Akeneo',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://www.akeneo.com/de/'
+  },
+  Saleslayer: {
+    title: 'Saleslayer',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://saleslayer.com/de/'
+  },
+  Proximis: {
+    title: 'Proximis',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://www.proximis.com/en/'
+  },
+  Webcollage: {
+    title: 'Webcollage',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://www.webcollage.net/MainApp/cp/#/login?redirect-to=%2F'
+  },
+  Apollon: {
+    title: 'Apollon',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: 'X',
+    WaWiSystem: '',
+    Servicetype: '',
+    url: 'https://apollon.de'
+  },
+  SHD: {
+    title: 'SHD ecoro',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: '',
+    WaWiSystem: 'X',
+    Servicetype: '',
+    url: 'https://www.shd.de/erp/warenwirtschaft/shd-ecoro/'
+  },
+  U2D: {
+    title: 'U2D',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: '',
+    WaWiSystem: 'X',
+    Servicetype: '',
+    url: 'https://www.u2d.de'
+  },
 }

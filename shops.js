@@ -266,4 +266,49 @@ var shops = {
         verybig: ' ',
         Servicetype: '',
     },
+    
+    Vtex: {
+        title: 'VTEX',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        verysmall: '',
+        small: '',
+        medium: '',
+        big: '',
+        verybig: ' ',
+        Servicetype: '',
+        url: 'https://vtex.com/us-en/'
+    },
+    Salesforce: {
+        title: 'salesforce',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        verysmall: '',
+        small: '',
+        medium: '',
+        big: '',
+        verybig: ' ',
+        Servicetype: '',
+        url: 'https://www.salesforce.com/de/'
+    },
+    
+    IBM: {
+        title: 'IBM Websphere',
+        text: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        verysmall: '',
+        small: '',
+        medium: '',
+        big: '',
+        verybig: ' ',
+        Servicetype: '',
+        url: 'https://www.ibm.com/de-de/marketplace/java-ee-runtime'
+    }
+    
 }

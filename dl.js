@@ -103,10 +103,19 @@ var dl = {
             'Shopify',
             'Presta',
             'Woocommerce',
-            'Magento'
+            'Magento',
+            'Vtex',
+            'Salesforce',
+            'IBM'
         ],
         WaWi: [
-
+            'Censhare',
+            'Akeneo',
+            'Pimcore',
+            'Saleslayer',
+            'Proximis',
+            'Webcollage',
+            'Apollon'
         ]
     },
     Microtech: {
@@ -225,7 +234,7 @@ var dl = {
             'Woocommerce'
         ],
         WaWi: [
-
+            'Pixi'
         ]
     },
     Globalsys: {
@@ -481,6 +490,79 @@ var dl = {
         ],
         DL: [
             'Billbee'
+        ]
+    },
+    ModernSolution: {
+        title: 'ModernSolution',
+        text: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: false,
+        Servicetype: '',
+        url: 'https://www.modernsolution.net',
+        shopSysteme: [
+        
+        ],
+        WaWi: [
+            'JTL'
+        ],
+        DL: [
+            
+        ]
+    },
+    Todo42: {
+        title: 'todo42',
+        text: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: false,
+        Servicetype: '',
+        url: 'http://www.todo42.de',
+        shopSysteme: [
+        
+        ],
+        WaWi: [
+           
+        ],
+        DL: [
+            
+        ]
+    },
+    Speed4Trade: {
+        title: 'Speed4Trade',
+        text: '',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: false,
+        Servicetype: '',
+        url: 'http://www.todo42.de',
+        shopSysteme: [
+            'Shopware',
+            'Magento'
+        ],
+        WaWi: [
+            'Softengine',
+            'Mircosoft',
+            'SAP',
+            'Sage',
+            'vs4',
+            'SHD',
+            'U2D'
+        ],
+        DL: [
+            
         ]
     }
 }
