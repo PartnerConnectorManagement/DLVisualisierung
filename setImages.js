@@ -392,8 +392,10 @@ function setImagesNew() {
             firstCircle[allWaWisNames[i]] = (wawi[allWaWisNames[i]]);
             firstCircle[allWaWisNames[i]].type = 'WaWi';
           } else {
+            
             thirdCircle[allWaWisNames[i]]=(wawi[allWaWisNames[i]]);
             thirdCircle[allWaWisNames[i]].type = 'WaWi';
+            
           }
         }
     }
@@ -417,6 +419,41 @@ function setImagesNew() {
             hideImage(secondCircleItems[i])
         }
     }
+
+
+    if (wawiVisible) {
+        
+        for (let i = 0; i < thirdCircleItems.length; i++) {
+            let angebunden = false;
+            loop3:
+            for (let ii = 0; ii < firstCircleItems.length; ii++) {
+                if (firstCircle[firstCircleItems[ii]].type == 'WaWi') {
+                    break loop3
+                }
+                for (let iii = 0; iii < firstCircle[firstCircleItems[ii]].WaWi.length; iii++) {
+                    if (thirdCircleItems[i]== firstCircle[firstCircleItems[ii]].WaWi[iii]) {
+                        angebunden = true;
+                        break loop3
+                    }
+                }
+            }
+            loop3:
+            for (let ii = 0; ii < secondCircleItems.length; ii++) {
+                for (let iii = 0; iii < thirdCircle[thirdCircleItems[i]].shopSysteme.length; iii++) {
+                    if (thirdCircle[thirdCircleItems[i]].shopSysteme[iii] == secondCircleItems[ii]) {
+                        angebunden = true;
+                        break loop3
+                    }
+                }
+            }
+
+            if (!angebunden) {
+                delete thirdCircle[thirdCircleItems[i]];
+                hideImage(thirdCircleItems[i])
+            }
+        }
+    }
+
 
 
     let angelFirstCircle = 360/Object.keys(firstCircle).length;

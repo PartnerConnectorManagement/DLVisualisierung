@@ -236,7 +236,10 @@ var wawi = {
       PimSystem: 'X',
       WaWiSystem: '',
       Servicetype: '',
-      url: 'https://www.censhare.com/de/'
+      url: 'https://www.censhare.com/de/',
+      shopSysteme: [
+
+      ]
   },
   Pimcore: {
     title: 'PIMCORE',
@@ -247,7 +250,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://pimcore.com/de'
+    url: 'https://pimcore.com/de',
+    shopSysteme: [
+
+    ]
   },
   Akeneo: {
     title: 'Akeneo',
@@ -258,7 +264,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://www.akeneo.com/de/'
+    url: 'https://www.akeneo.com/de/',
+    shopSysteme: [
+
+    ]
   },
   Saleslayer: {
     title: 'Saleslayer',
@@ -269,7 +278,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://saleslayer.com/de/'
+    url: 'https://saleslayer.com/de/',
+    shopSysteme: [
+
+    ]
   },
   Proximis: {
     title: 'Proximis',
@@ -280,7 +292,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://www.proximis.com/en/'
+    url: 'https://www.proximis.com/en/',
+    shopSysteme: [
+
+    ]
   },
   Webcollage: {
     title: 'Webcollage',
@@ -291,7 +306,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://www.webcollage.net/MainApp/cp/#/login?redirect-to=%2F'
+    url: 'https://www.webcollage.net/MainApp/cp/#/login?redirect-to=%2F',
+    shopSysteme: [
+
+    ]
   },
   Apollon: {
     title: 'Apollon',
@@ -302,7 +320,10 @@ var wawi = {
     PimSystem: 'X',
     WaWiSystem: '',
     Servicetype: '',
-    url: 'https://apollon.de'
+    url: 'https://apollon.de',
+    shopSysteme: [
+
+    ]
   },
   SHD: {
     title: 'SHD ecoro',
@@ -313,7 +334,10 @@ var wawi = {
     PimSystem: '',
     WaWiSystem: 'X',
     Servicetype: '',
-    url: 'https://www.shd.de/erp/warenwirtschaft/shd-ecoro/'
+    url: 'https://www.shd.de/erp/warenwirtschaft/shd-ecoro/',
+    shopSysteme: [
+
+    ]
   },
   U2D: {
     title: 'U2D',
@@ -324,6 +348,9 @@ var wawi = {
     PimSystem: '',
     WaWiSystem: 'X',
     Servicetype: '',
-    url: 'https://www.u2d.de'
+    url: 'https://www.u2d.de',
+    shopSysteme: [
+
+    ]
   },
 }
