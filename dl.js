@@ -501,7 +501,7 @@ var dl = {
         bullet1: '',
         bullet2: '',
         bullet3: '',
-        angebunden: false,
+        angebunden: true,
         Servicetype: '',
         url: 'https://www.modernsolution.net',
         shopSysteme: [
