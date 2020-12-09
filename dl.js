@@ -564,5 +564,39 @@ var dl = {
         DL: [
             
         ]
+    },
+    oscware: {
+        title: 'oscware',
+        text: 'NetConnections',
+        Shopsystem: '',
+        PimSystem: '',
+        WaWiSystem: '',
+        bullet1: '',
+        bullet2: '',
+        bullet3: '',
+        angebunden: true,
+        Servicetype: '',
+        url: 'https://www.oscware.de/schnittstellen--marktplatz-otto#',
+        shopSysteme: [
+            'Shopware',
+            'Shopify',
+            'Gambio',
+            'Magento',
+            'Modified',
+            'Oxid',
+            'Presta',
+            'Woocommerce',
+            'xtCommerce'
+        ],
+        WaWi: [
+            'Actindo',
+            'Afterbuy',
+            'JTL',
+            'Plentymarkets',
+            'SAP'
+        ],
+        DL: [
+          'Tradebyte'  
+        ]
     }
 }
