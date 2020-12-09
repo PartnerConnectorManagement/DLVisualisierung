@@ -353,4 +353,18 @@ var wawi = {
 
     ]
   },
+      Afterbuy: {
+    title: 'Afterbuy',
+    text: '',
+    bullet1: '',
+    bullet2: '',
+    bullet3: '',
+    PimSystem: '',
+    WaWiSystem: 'X',
+    Servicetype: '',
+    url: 'https://www.afterbuy.de/',
+    shopSysteme: [
+
+    ]
+  },
 }
