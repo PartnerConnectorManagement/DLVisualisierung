@@ -592,10 +592,10 @@ var dl = {
             'Actindo',
             'Afterbuy',
             'JTL',
-            'Plentymarkets',
             'SAP'
         ],
         DL: [
+          'Plentymarkets',
           'Tradebyte'  
         ]
     }
