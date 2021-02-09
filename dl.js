@@ -502,7 +502,7 @@ var dl = {
         bullet2: '',
         bullet3: '',
         angebunden: true,
-        Servicetype: '',
+        Servicetype: 'FullServiceProvider',
         url: 'https://www.modernsolution.net',
         shopSysteme: [
         
@@ -545,8 +545,8 @@ var dl = {
         bullet1: '',
         bullet2: '',
         bullet3: '',
-        angebunden: false,
-        Servicetype: '',
+        angebunden: true,
+        Servicetype: 'FullServiceProvider',
         url: 'http://www.todo42.de',
         shopSysteme: [
             'Shopware',
@@ -575,7 +575,7 @@ var dl = {
         bullet2: '',
         bullet3: '',
         angebunden: true,
-        Servicetype: '',
+        Servicetype: 'FullServiceProvider',
         url: 'https://www.oscware.de/schnittstellen--marktplatz-otto#',
         shopSysteme: [
             'Shopware',
@@ -598,5 +598,28 @@ var dl = {
           'Plentymarkets',
           'Tradebyte'  
         ]
-    }
+    },
+    Channelunity: {
+    title: 'Channelunity',
+    text: '',
+    Shopsystem: '',
+    PimSystem: '',
+    WaWiSystem: '',
+    bullet1: 'Hauptsaechlich internationale Kunden',
+    bullet2: 'Dies ist ein Bullet Punkt',
+    bullet3: 'Dies ist ein Bullet Punkt',
+    angebunden: true,
+    Servicetype: 'FullServiceProvider',
+    shopSysteme: [
+        'Shopify',
+        'Magento',
+        'Woocommerce'
+    ],
+    WaWi: [
+     'SAP'
+    ],
+    DL: [
+      
+    ]
+}
 }
